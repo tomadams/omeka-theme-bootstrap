@@ -1,0 +1,5 @@
+When installing a new version of bootstrap, suggest that pagination gets renamed to bspagination so that it
+does not conflict with omeka standard usage across the themes.
+
+mv bootstrap.css bootstrap.css.orig
+sed -e "s/pagination/bspagination/" bootstrap.css.orig > bootstrap.css

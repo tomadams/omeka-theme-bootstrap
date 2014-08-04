@@ -1,0 +1,284 @@
+
+/* == Wrap == */
+#wrap {}
+
+/* == Header == */
+#header {}
+    #search-wrap {}
+
+/* == Content == */
+
+    /* Structure */
+    #content {}
+        #primary {}
+        #secondary {}
+
+    /* General */
+    #featured-item {}
+    #recent-items {}
+
+    #featured-exhibit {}
+
+    #pagination-top {}
+    #pagination-bottom {}
+
+  /* !---------- Pagination ---------- */
+  .pagination {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 0 1.5em;
+  }
+  .pagination li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .pagination input[type=text] {
+    width: 50px;
+    text-align: right;
+    margin-right: 10px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    border-style: solid;
+    border-width: 0.0625em;
+    padding: -0.0625em;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+  }
+
+  nav.pagination {
+    padding: 0;
+  }
+  nav.pagination .pagination_list {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+    margin-bottom: 1.875em;
+    clear: both;
+    padding: 0.375em 0;
+    text-align: center;
+  }
+  nav.pagination .pagination_list li {
+    display: inline-block;
+    width: auto;
+    color: #fff;
+    margin: 0 4px;
+    zoom: 1;
+  }
+  nav.pagination .pagination_list a {
+    padding: 0;
+  }
+  nav.pagination .pagination_list .pagination_current {
+    font-weight: 500;
+  }
+  nav.pagination .pagination_list .pagination_first a, nav.pagination .pagination_list .pagination_last a,
+  nav.pagination .pagination_list .pagination_previous a, nav.pagination .pagination_list .pagination_next a {
+    display: inline-block;
+    text-indent: -9999px;
+    height: auto;
+    -webkit-box-shadow: transparent 0 0 0;
+    -moz-box-shadow: transparent 0 0 0;
+    box-shadow: transparent 0 0 0;
+  }
+  nav.pagination .pagination_list .pagination_first a:after, nav.pagination .pagination_list .pagination_last a:after,
+  nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pagination_list .pagination_next a:after {
+    text-indent: 0;
+    display: block;
+    margin-top: -2em;
+  }
+  nav.pagination .pagination_list .pagination_first a:after {
+    content: "<<";
+  }
+  nav.pagination .pagination_list .pagination_last a:after {
+    content: ">>";
+  }
+  nav.pagination .pagination_list .pagination_previous a:after {
+    content: "<";
+  }
+  nav.pagination .pagination_list .pagination_next a:after {
+    content: ">";
+  }
+
+  .pagination_previous a, .pagination_next a {
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    padding: 0 10px;
+    # -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+    # -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+    # box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+  }
+
+  .item-pagination {
+    clear: both;
+    padding-bottom: 0.75em;
+  }
+  .item-pagination li {
+    display: inline-block;
+    background-color: #fff;
+    margin: 0 0 0.75em 0;
+    padding: 0.375em 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
+  }
+  .item-pagination li:empty {
+    display: none;
+  }
+  .item-pagination .next {
+    float: right;
+  }
+  .item-pagination .previous {
+    float: left;
+  }
+
+
+
+    /* Navigation */
+    #primary-nav {}
+    #secondary-nav {}
+
+    /* Advanced Search */
+    #advanced-search-form {}
+        #submit_search_advanced {}
+
+    /* Home Page */
+    #featured-collection {}
+
+    /* Items Pages */
+    #extended-metadata {}
+        #item-type {}
+
+    #item-metadata {}
+        #item-publisher {}
+        #item-creator {}
+        #item-description {}
+        #item-relation {}
+        #item-spatial-coverage {}
+        #item-rights {}
+        #item-source {}
+        #item-subject {}
+        #item-additional-creator {}
+        #item-format {}
+        #item-contributor {}
+        #item-rights-holder {}
+        #item-provenance {}
+        #item-date {}
+        #item-temporal-coverage {}
+        #item-date-added {}
+        #item-collection {}
+        #item-files {}
+        #item-tags {}
+        #item-citation {}
+
+    #next-item {}
+    #previous-item {}
+
+        /* Search Results */
+        #advanced_search_header {}
+        #primary #basic_search_header {}
+        #primary #submit_search {}
+
+    /* Exhibits Pages */
+    #exhibit-nav {}
+    #exhibit-summary {}
+    #exhibit-show {}
+
+    /* Collections Pages */
+    #collection-description {}
+    #collectors {}
+
+div.tag-fluid-column {
+    -webkit-column-width: 14em;
+    -moz-column-width: 14em;
+    -o-column-width: 14em;
+    -ms-column-width: 14em;
+    column-width: 14em;
+
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    -o-column-gap: 1em;
+    -ms-column-gap: 1em;
+    column-gap: 1em;
+
+    -webkit-column-rule: thin solid LightGray; 
+    -moz-column-rule: thin solid LightGray; 
+    -o-column-rule: thin solid LightGray; 
+    -ms-column-rule: thin solid LightGray; 
+    column-rule: thin solid LightGray; 
+    }
+
+div.tag-fluid-column ul {
+    text-indent:-15px;
+    list-style-type: none;
+    }
+
+/* == Footer == */
+#footer {}
+
+/* Tom Tweaks */
+
+body {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+div.main-area {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar-default {
+    background-color: #333333;
+    background-image: -moz-linear-gradient(center top, #444444, #202020);
+    background-repeat: repeat-x;
+    border-color: #333333;
+    min-height: 40px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    line-height: 12px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    color: #999;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #555;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: #500;
+    color: #EEE;
+}
+
+.jumbotron {
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.badge {
+    background-color: #48c;
+    font-size: 11px;
+}
+

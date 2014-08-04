@@ -1,7 +1,7 @@
 Omeka Bootstrap Theme
 =====================
 
-This theme for Omeka 2.2, utilizes Twitter Bootstrap to provide a responsive web interface for CSHL's libgallery.cshl.edu
+This theme for Omeka 2.2, utilizes Twitter Bootstrap to provide a responsive web interface for CSHL's libgallery.cshl.edu website.
 
 This originally was an Omeka 1.5 theme and now supports Omeka 2.0 API. This Omeka 2.2 version of the code is not yet in production.
 
